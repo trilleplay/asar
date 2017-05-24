@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var asar = require('../lib/asar')
+var asar = require('../lib/distribute5')
 var program = require('commander')
 
 program.version('v' + require('../package.json').version)
@@ -7,7 +7,7 @@ program.version('v' + require('../package.json').version)
 
 program.command('pack <dir> <output>')
        .alias('p')
-       .description('create asar archive')
+       .description('create distribute5 archive')
        .option('--ordering <file path>', 'path to a text file for ordering contents')
        .option('--unpack <expression>', 'do not pack files matching glob <expression>')
        .option('--unpack-dir <expression>', 'do not pack dirs matching glob <expression> or starting with literal <expression>')
@@ -37,7 +37,7 @@ program.command('pack <dir> <output>')
 
 program.command('list <archive>')
        .alias('l')
-       .description('list files of asar archive')
+       .description('list files of distribute5 archive')
        .action(function (archive) {
          var files = asar.listPackage(archive)
          for (var i in files) {
@@ -62,7 +62,7 @@ program.command('extract <archive> <dest>')
 
 program.command('*')
        .action(function (cmd) {
-         console.log('asar: \'%s\' is not an asar command. See \'asar --help\'.', cmd)
+         console.log('asar: \'%s\' is not an distribute5 command. See \'asar --help\'.', cmd)
        })
 
 program.parse(process.argv)
