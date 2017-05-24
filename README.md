@@ -1,6 +1,6 @@
 # asar - Electron Archive
 
-[![Travis build status](https://travis-ci.org/electron/asar.svg?branch=master)](https://travis-ci.org/electron/asar)
+[![Travis build status](https://travis-ci.org/trilleplay/distribute5.svg?branch=master)](https://travis-ci.org/trilleplay/distribute5)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/mrfwfr0uxlbwkuq3?svg=true)](https://ci.appveyor.com/project/electron-bot/asar)
 [![dependencies](http://img.shields.io/david/electron/asar.svg?style=flat-square)](https://david-dm.org/electron/asar)
 [![npm version](http://img.shields.io/npm/v/asar.svg?style=flat-square)](https://npmjs.org/package/asar)
