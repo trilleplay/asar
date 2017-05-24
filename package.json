@@ -1,8 +1,8 @@
 {
-  "main": "./lib/asar.js",
-  "name": "asar",
-  "description": "Creating Electron app packages",
-  "version": "0.13.0",
+  "main": "./lib/distribute5.js",
+  "name": "distribute5",
+  "description": "Creating easy distribute5 packages.",
+  "version": "0.17.1",
   "bin": {
     "asar": "./bin/asar.js"
   },
@@ -10,13 +10,13 @@
     "node": ">=4.6"
   },
   "license": "MIT",
-  "homepage": "https://github.com/trilleplay/asar",
+  "homepage": "https://github.com/trilleplay/distribute5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/trilleplay/asar.git"
+    "url": "https://github.com/trilleplay/distribute5.git"
   },
   "bugs": {
-    "url": "https://github.com/trilleplay/asar/issues"
+    "url": "https://github.com/trilleplay/distribute5/issues"
   },
   "scripts": {
     "test": "mocha --reporter spec && npm run lint",
